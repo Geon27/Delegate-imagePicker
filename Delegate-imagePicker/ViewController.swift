@@ -8,10 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var imgView: UIImageView!
+    @IBAction func pick(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
 
