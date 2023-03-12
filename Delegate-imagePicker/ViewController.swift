@@ -20,6 +20,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate,
         // 이미지 피커 컨트롤러 실행
         self.present(picker, animated: false)
     }
+extension ViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    }
         
         // 이미지 피커에서 이미지를 선택하지 않고 취소할때 호출되는 메소드
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
